@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/styles.css" />
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Project Akhir</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg text-white p-4 sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#hero"
+          ><img
+            src="bootstrap-5.3.3-dist/img/logo-tempo.png"
+            alt="logo-tempo"
+            width="45px"
+          />TEMPO.CO</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#hero"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#paket"
+                >Paket</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#fitur"
+                >Fitur</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#demo"
+                >Demo</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#form"
+                >Form</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.tempo.co/?tracking_page_refresh"
+                target="_blank"
+                >Tempo</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <div id="hero" class="hero pt-5">
+      <div class="container pt-5">
+        <div class="row align-items-center">
+          <div
+            class="col-md-6 d-flex flex-column justify-content-center text-left"
+          >
+            <h1>Langganan Tempo Sekarang</h1>
+            <p>Jangan Lewatkan Informasi dari Tempo</p>
+          </div>
+          <div
+            class="col-md-6 d-flex justify-content-center justify-content-md-end pt-5 pt-md-0"
+          >
+            <img
+              src="/bootstrap-5.3.3-dist/img/logo.png"
+              class="img-fluid rounded"
+              alt="Example Image"
+              width="70%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#2B2A4C"
+        fill-opacity="1"
+        d="M0,192L30,165.3C60,139,120,85,180,90.7C240,96,300,160,360,165.3C420,171,480,117,540,96C600,75,660,85,720,122.7C780,160,840,224,900,218.7C960,213,1020,139,1080,117.3C1140,96,1200,128,1260,138.7C1320,149,1380,139,1410,133.3L1440,128L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
+      ></path>
+    </svg>
+
+    <!-- PAKET -->
+    <div id="paket" class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h1 class="text-center mb-5 mt-5">Pilihan Langganan Berita</h1>
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col" class="p-3">Paket</th>
+                <th scope="col" class="p-3">Durasi</th>
+                <th scope="col" class="p-3">Harga</th>
+                <th scope="col" class="p-3">Pilihan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="p-3">Basic</td>
+                <td class="p-3">1 Bulan</td>
+                <td class="p-3">Rp50.000</td>
+                <td class="p-3">
+                  <button type="button" class="btn btn-danger">
+                    Langganan
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-3">Standard</td>
+                <td class="p-3">6 Bulan</td>
+                <td class="p-3">Rp250.000</td>
+                <td class="p-3">
+                  <button type="button" class="btn btn-danger">
+                    Langganan
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-3">Premium</td>
+                <td class="p-3">1 Tahun</td>
+                <td class="p-3">Rp450.000</td>
+                <td class="p-3">
+                  <button type="button" class="btn btn-danger">
+                    Langganan
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#2B2A4C"
+        fill-opacity="1"
+        d="M0,192L30,165.3C60,139,120,85,180,90.7C240,96,300,160,360,165.3C420,171,480,117,540,96C600,75,660,85,720,122.7C780,160,840,224,900,218.7C960,213,1020,139,1080,117.3C1140,96,1200,128,1260,138.7C1320,149,1380,139,1410,133.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+      ></path>
+    </svg>
+
+    <!-- FITUR & DEMO -->
+    <div id="fitur" class="hero">
+      <div class="container p-5">
+        <div class="text-center">
+          <h1 class="mb-5">Fitur & Demo Aplikasi</h1>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p>Fitur yang ada di langganan</p>
+            <ul class="list-group mt-3">
+              <li class="list-group-item">Akses Tanpa Batas ke Konten</li>
+              <li class="list-group-item">Konten Eksklusif</li>
+              <li class="list-group-item">Akses ke Edisi Cetak atau Digital</li>
+              <li class="list-group-item">Pemberitahuan dan Update Cepat</li>
+              <li class="list-group-item">Akses ke Arsip</li>
+            </ul>
+          </div>
+          <div class="col-md-6 d-flex">
+            <video
+              class="rounded"
+              src="bootstrap-5.3.3-dist/videos/video-demo.mp4"
+              width="100%"
+              autoplay
+              loop
+            ></video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#2B2A4C"
+        fill-opacity="1"
+        d="M0,160L17.1,149.3C34.3,139,69,117,103,106.7C137.1,96,171,96,206,106.7C240,117,274,139,309,149.3C342.9,160,377,160,411,144C445.7,128,480,96,514,106.7C548.6,117,583,171,617,165.3C651.4,160,686,96,720,90.7C754.3,85,789,139,823,165.3C857.1,192,891,192,926,165.3C960,139,994,85,1029,74.7C1062.9,64,1097,96,1131,133.3C1165.7,171,1200,213,1234,229.3C1268.6,245,1303,235,1337,208C1371.4,181,1406,139,1423,117.3L1440,96L1440,0L1422.9,0C1405.7,0,1371,0,1337,0C1302.9,0,1269,0,1234,0C1200,0,1166,0,1131,0C1097.1,0,1063,0,1029,0C994.3,0,960,0,926,0C891.4,0,857,0,823,0C788.6,0,754,0,720,0C685.7,0,651,0,617,0C582.9,0,549,0,514,0C480,0,446,0,411,0C377.1,0,343,0,309,0C274.3,0,240,0,206,0C171.4,0,137,0,103,0C68.6,0,34,0,17,0L0,0Z"
+      ></path>
+    </svg>
+
+    <!-- DEMO IFRAME -->
+    <div id="demo" class="container p-5 text-center">
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://www.tempo.co/"
+          title="Website tempo"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="container mt-4">
+        <a
+          href="https://www.tempo.co/"
+          class="btn btn-danger mt-2"
+          target="_blank"
+          >Klik untuk menuju website</a
+        >
+      </div>
+    </div>
+
+    <!-- FORMULIR -->
+    <div id="form" class="hero pb-5">
+      <div class="container mt-5 col-md-6 pt-5">
+        <h2 class="mb-5 text-center">Formulir Berlangganan</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Nama</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Masukkan nama"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Masukkan email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="Masukkan password"
+            />
+          </div>
+          <div class="form-group">
+            <label for="package">Pilih Jenis Paket</label>
+            <select class="form-control" id="package">
+              <option value="basic">Basic</option>
+              <option value="standard">Standard</option>
+              <option value="premium">Premium</option>
+            </select>
+          </div>
+          <div class="form-check mb-3">
+            <input type="checkbox" class="form-check-input" id="terms" />
+            <label class="form-check-label" for="terms"
+              >Saya setuju dengan syarat dan ketentuan</label
+            >
+          </div>
+          <button type="submit" class="btn btn-danger">Kirim</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="hero text-white p-4 text-center">
+      <p>&copy; 2024 Tempo.co. All Rights Reserved.</p>
+      <a href="#" class="text-white">Privacy Policy</a> |
+      <a href="#" class="text-white">Terms of Use</a>
+    </footer>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
