@@ -11,6 +11,11 @@ nav {
   color: #eee2de !important;
 }
 
+.logo {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
 nav a {
   color: #eee2de !important;
 }
@@ -41,4 +46,8 @@ label {
 input .form-control:active {
   box-shadow: none;
   border-color: no;
+}
+.table-rounded {
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
